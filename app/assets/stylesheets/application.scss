@@ -59,6 +59,7 @@ body {
 	top: 232px;
 	background: #FBFBFB;
 	border-radius: 77px;
+	display: flex;
 }
 
 h3.form-title {
@@ -79,6 +80,14 @@ h3.form-title {
 	border-color: #8DB44F;
 }
 
+.btn-next {
+	width: 112px;
+	height: 318px;
+	background: #8DB44F;
+	border-radius: 10px;
+	border-color: #8DB44F;
+}
+
 .btn-group {
 	justify-content: space-between;
   width: 100%;
@@ -86,20 +95,18 @@ h3.form-title {
   align-items: center
 }
 
-.secondary a {
+a {
 	color: #8DB44F;
 	text-decoration: underline;
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  width: 80%;
+	display: flex;
 }
 
 .box {
   margin: 15px;
+  padding: 15px;
   background: #C4C4C4;
 	display: flex;
 	align-items: flex-end;
@@ -108,4 +115,26 @@ h3.form-title {
 	width: 200px;
 	height: 200px;
 	border-radius: 20px;
+}
+
+.tiles-with-text {
+	width: 70%;
+}
+
+.tiles {
+	display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.btn-next {
+	color: #FFFFFF;
+}
+
+.flex-column {
+	text-align: center;
+}
+
+.right-col {
+	margin-left: 3em;
 }
