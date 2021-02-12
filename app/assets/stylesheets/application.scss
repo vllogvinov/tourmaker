@@ -1,0 +1,146 @@
+/*
+*= require_tree '.'
+*= require_self
+*/
+@import "bootstrap";
+
+.btn.btn-outline-primary:hover a {
+	color: white;
+	text-decoration: none;
+}
+
+ul.locales {
+	list-style-type: none;
+}
+
+.home-link a {
+	font-family: 'Roboto', sans-serif;
+	color: #8DB44F;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+header {
+	background-color: #FDFDFD;
+}
+
+header a {
+	color: #8DB44F;
+	font-family: 'Roboto', sans-serif;
+}
+
+header a:hover {
+	text-decoration: none;
+}
+
+body {
+	background-color: #8DB44F;
+}
+
+.email-field {
+	background: #ECECEC;
+	border-radius: 10px;
+}
+
+.password-field {
+	background: #ECECEC;
+	border-radius: 10px;
+}
+
+.center-form {
+	justify-content: center;
+	position: absolute;
+	padding: 3em;
+	padding-top: 2em;
+	padding-left: 4em;
+	width: 830px;
+	height: 607px;
+	left: 545px;
+	top: 232px;
+	background: #FBFBFB;
+	border-radius: 77px;
+	display: flex;
+}
+
+h3.form-title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 40px;
+	line-height: 47px;
+}
+
+.btn-primary {
+	width: 238px;
+	height: 49px;
+	left: 1030px;
+	top: 689px;
+	background: #8DB44F;
+	border-radius: 10px;
+	border-color: #8DB44F;
+}
+
+.btn-next {
+	width: 112px;
+	height: 318px;
+	background: #8DB44F;
+	border-radius: 10px;
+	border-color: #8DB44F;
+}
+
+.btn-group {
+	justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center
+}
+
+a {
+	color: #8DB44F;
+	text-decoration: underline;
+}
+
+.row {
+	display: flex;
+}
+
+.box {
+  margin: 15px;
+  padding: 15px;
+  background: #C4C4C4;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	color: #FFFFFF;
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+}
+
+.tiles-with-text {
+	width: 70%;
+}
+
+.tiles {
+	display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.btn-next {
+	color: #FFFFFF;
+	width: 112px;
+	height: 318px;
+}
+
+.flex-column {
+	text-align: center;
+}
+
+.right-col {
+	margin-left: 3em;
+}
+
+.greeting {
+	text-align: center;
+}

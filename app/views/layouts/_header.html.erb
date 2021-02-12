@@ -1,0 +1,14 @@
+<header class="navbar navbar-white d-flex flex-column flex-md-row align-items-center p-3 px-md-5 mb-3 bg-body border-bottom shadow-sm">
+  
+  <nav class="my-0 d-flex">
+  	<h2 class="my-0 home-link"><%= link_to 'TripSearch', root_path %></h2>
+    <%= link_to "Контакты", static_pages_contacts_path, class: "p-2 ml-5" %>
+    <%= link_to "Создать маршрут", new_place_path, class: "p-2 ml-5" %>
+  </nav>
+
+  <% if user_signed_in? %>
+  	<a class="p-2"><%= link_to "Выйти", destroy_user_session_path, :method => :delete %></a>
+  <% else %>
+  	<a class="p-2"><%= link_to "Войти", new_user_session_path %></a>
+  <% end %>
+</header>
