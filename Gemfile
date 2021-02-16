@@ -20,6 +20,8 @@ gem 'bootstrap'
 gem 'bootstrap-sass'
 gem 'kaminari'
 gem 'jquery-rails'
+gem 'simple_form'
+gem 'nokogiri'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
